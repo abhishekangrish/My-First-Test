@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0053)http://164.100.47.193/admitcard/card.aspx?sd=31034352 -->
+<html><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+</title>
+    <script type="text/javascript">
+        if (document.layers) {
+            //Capture the MouseDown event.
+            document.captureEvents(Event.MOUSEDOWN);
+
+            //Disable the OnMouseDown event handler.
+            document.onmousedown = function () {
+                return false;
+            };
+        }
+        else {
+            //Disable the OnMouseUp event handler.
+            document.onmouseup = function (e) {
+                if (e != null && e.type == "mouseup") {
+                    //Check the Mouse Button which is clicked.
+                    if (e.which == 2 || e.which == 3) {
+                        //If the Button is middle or right then disable.
+                        return false;
+                    }
+                }
+            };
+        }
+
+        //Disable the Context Menu event.
+        document.oncontextmenu = function () {
+            return false;
+        };
+    </script>
+    <style type="text/css">
+        #imglogo
+        {
+        }
+        .style5
+        {
+            width: 123px;
+        }
+        .style6
+        {
+            width: 134px;
+        }
+        .style8
+        {
+            width: 314px;
+        }
+        .style9
+        {
+            width: 30%;
+        }
+        .style10
+        {
+            font-size: small;
+            width: 688px;
+        }
+        .style11
+        {
+            width: 9px;
+        }
+        .style15
+        {
+            width: 1213px;
+        }
+        .style16
+        {
+            width: 1002px;
+            text-align: right;
+        }
+        .style17
+        {
+            width: 688px;
+        }
+        .style26
+        {
+            text-align: justify;
+        }
+        .style27
+        {
+            text-decoration: underline;
+        }
+        .sublink
+        {
+            font-weight: 700;
+            color: #FF0000;
+        }
+        </style>
+    <script language="javascript" type="text/javascript">
+        function CallPrint(strid) {
+            var prtContent = document.getElementById(strid);
+            var WinPrint = window.open('', '', 'letf=0,top=0,width=1000,height=800,toolbar=0,scrollbars=1,status=0');
+            WinPrint.document.write(prtContent.innerHTML);
+
+
+            WinPrint.document.close();
+            WinPrint.focus();
+            var where_to = confirm("Do you really want to Print this page?");
+            if (where_to == true) {
+                WinPrint.print();
+                WinPrint.close();
+            }
+            else {
+                WinPrint.focus();
+            }
+            //prtContent.innerHTML=strid;//OldOne;
+        }
+   
+    </script>
+</head>
+<body>
+    <form method="post" action="http://164.100.47.193/admitcard/card.aspx?sd=31034352" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUHLTY4MzU3Ng9kFgICAw9kFgICBw9kFhoCCQ8PFgIeBFRleHQFEURhdGVkIDoyMi0wOC0yMDE3ZGQCEQ8PFgIfAAVERXhlY3V0aXZlL0xlZ2lzbGF0aXZlL0NvbW1pdHRlZS9Qcm90b2NvbCBBc3Npc3RhbnRbQWR2dC4gTm8uIDQvMjAxNl1kZAIVDw8WAh8ABQgzMTAzNDM1MmRkAhkPDxYCHwAFBjEwMTY2MGRkAh0PDxYCHwAFEEFCSElTSEVLICBTSEFSTUFkZAIhDw8WAh8ABQpIIEMgU0hBUk1BZGQCJQ8PFgIfAAVhSE9VU0UgTk8gMTQ2IFNFQ1RPUiAxMjYgIEtTQiBST1lBTCBIT01FUyAyIEdSRUFURVIgTU9IQUxJLENIQUpKVSBNQUpSQSBST0FELEtIQVJBUiwgUHVuamFiLTE0MDMwMWRkAikPDxYCHwAFA0dFTmRkAi0PDxYCHwAFCjE1LzEyLzE5OTFkZAIxDw8WAh8ABQVEZWxoaWRkAjMPDxYCHghJbWFnZVVybAU0aHR0cDovLzE2NC4xMDAuNDcuMTkzL0FkbWl0Q2FyZC9waG90by8zMzgyNTc2MjBwLmpwZ2RkAjUPDxYCHwEFNGh0dHA6Ly8xNjQuMTAwLjQ3LjE5My9BZG1pdENhcmQvcGhvdG8vMzM4MjU3NjIwcy5qcGdkZAI3Dw8WAh8ABWdLZW5kcml5YSBWaWR5YWxheWEgTlRQQyBCYWRhcnB1ciwgQlRQUyBDb21wbGV4LCBNYXRodXJhIFJvYWQsTmV3IERlbGhpIC0gMTEwMDQ0LCBQaG9uZTrCoDAxMSAyNjk0IDkxODksZGRkWLmV0utvXC3NcFKST3JhZgc8jRvwTOUiAAVu1P56o68=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DDDAAB5A">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAS5bCEDS1sxRs2ldq25ppl2tTfNpOz0CH4vKngBfzxDIUbK/jak7bueUN6Fkky4EUstoTbSwlwiqvdkyjI2EuAl3DCwx5wIERZAaxk1bB21m+squt6k0GtEKHJ5+RRRJoA=">
+</div>
+    <table width="100%">
+    <tbody><tr><td style="width: 200px;"></td><td></td><td style="width: 200px;"></td></tr>
+    <tr><td style="width: 200px;"></td><td></td><td style="width: 200px;"></td></tr>
+    <tr><td style="width: 200px;">&nbsp;</td><td bgcolor="#2094BA">
+        <img id="Image1" src="http://10.21.202.188/JRCAdmin/Images/loksabha_Secretariat1.jpg" style="height:98px;width:100%;"></td><td style="width: 200px;">&nbsp;</td></tr>
+<tr><td style="width: 200px;">&nbsp;</td><td bgcolor="#2094BA">
+        </td><td style="width: 200px;">&nbsp;</td></tr>
+    <tr><td style="width: 200px;"></td><td bgcolor="#2094BA" align="center">
+    <div>
+        <table style="width: 745px">
+            <tbody><tr>
+                <td align="left">
+                    <a id="LinkButton1" href="javascript:__doPostBack(&#39;LinkButton1&#39;,&#39;&#39;)">Logout</a>
+                </td>
+                <td class="style16">
+                    <a onclick="javascript:CallPrint(&#39;divPrint&#39;);" id="print" class="sublink" href="javascript:__doPostBack(&#39;print&#39;,&#39;&#39;)"> Print</a>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="divPrint">
+        <table style="width: 62%" bgcolor="White">
+            <tbody><tr>
+                <td align="center" class="style15">
+                    <table style="border-style: solid; width: 762px;">
+                        <tbody><tr>
+                            <td class="style17">
+                                <img id="imglogo" src="http://10.21.202.188/JRCAdmin/Images/loksabha_Secretariat1.jpg" style="height:58px;width:100%;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" class="style17">
+                                <span id="lblbranch" style="font-size: x-large;
+                                    font-weight: 700">Joint Recruitment Cell (JRC)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" class="style17">
+                                <span id="lblbulding" style="font-weight: 700">Parliament House Annexe</span>
+                                <br>
+                                <span id="lbladdress" style="font-weight: 700">New Delhi - 110001</span>
+                                <br>
+                                <span id="lbldate" style="font-weight: 700">Dated :22-08-2017</span>&nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                <table style="width: 100%">
+                                    <tbody><tr>
+                                        <td align="center" style="font-weight: bold; font-size: medium;" class="style9">
+                                            <span id="Label1">F.NO.7/8/EA/JRC/2017</span>
+                                        </td>
+                                        <td align="center" style="font-weight: bold; font-size: medium;" class="style11">
+                                            &nbsp;
+                                        </td>
+                                        <td align="center" style="font-weight: bold; font-size: medium; text-align: left;">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span id="Label2">Admit Card</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label3">Post Applied for</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblpost">Executive/Legislative/Committee/Protocol Assistant[Advt. No. 4/2016]</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label5">Registration No.</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblregno">31034352</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label7">Roll No.</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblrollno">101660</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label9">Name</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblname">ABHISHEK  SHARMA</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label11">Father Name</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblfathername">H C SHARMA</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9" valign="top">
+                                            <span id="Label13">Address</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11" valign="top">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" valign="top">
+                                            <span id="lbladd">HOUSE NO 146 SECTOR 126  KSB ROYAL HOMES 2 GREATER MOHALI,CHAJJU MAJRA ROAD,KHARAR, Punjab-140301</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label15">Category</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblcat">GEN</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label17">Date of birth</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lbldob">15/12/1991</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right" class="style9">
+                                            <span id="Label19">Examination Centre</span>
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;" class="style11">
+                                            :
+                                        </td>
+                                        <td align="left" style="font-weight: bold; font-size: medium;">
+                                            <span id="lblexamcentre">Delhi</span>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" class="style17">
+                                <table style="width: 57%; height: 149px;">
+                                    <tbody><tr>
+                                        <td class="style6">
+                                            <img id="imgphoto" src="./card_files/338257620p.jpg" style="height:120px;width:100px;">
+                                        </td>
+                                        <td class="style5">
+                                            <img id="imgsign" src="./card_files/338257620s.jpg" style="height:50px;width:100px;">
+                                        </td>
+                                        <td>
+                                            <table border="1" align="center" style="width: 120px; height: 124px; font-size: x-small">
+                                                <tbody><tr>
+                                                    <td align="left" valign="top" style="text-align: justify">
+                                                        Paste / Affix (do not staple/pin) Passport size photograph (same as appearing on
+                                                        this Admit Card) duly signed by the candidate in such a manner that a part of the
+                                                        signature also appear on the Admit Card.
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left" class="style17">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                The following will be the scheme for the Preliminary Examination
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table width="100%" border="1">
+                                    <tbody><tr style="text-align: center; font-weight: bold">
+                                        <td style="width: 35%;">
+                                            Paper
+                                        </td>
+                                        <td style="width: 10%;">
+                                            Marks
+                                        </td>
+                                        <td style="width: 15%;">
+                                            Date and Time
+                                        </td>
+                                        <td>
+                                            Venue
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 35%;" align="left">
+                                            Part A- General Knowledge &amp; Current Affairs
+                                            <br>
+                                            Part B- General English 
+                                            <br>
+                                            (50 multiple choice objective type questions in each part)
+                                        </td>
+                                        <td align="center" valign="top">
+                                            50<br>
+                                            <br>
+                                            50
+                                        </td>
+                                        <td valign="middle" align="left" style="text-align: center">
+                                            03.09.2017 (Sunday)<br>
+                                            10.30 A.M to 11:20 A.M
+                                            <br>
+                                            (50 Minutes)</td>
+                                        <td valign="top" align="left">
+                                            <br>
+                                           <span id="lblexamvenue">Kendriya Vidyalaya NTPC Badarpur, BTPS Complex, Mathura Road,New Delhi - 110044, Phone:&nbsp;011 2694 9189,</span>
+                                        </td>
+                                    </tr>
+                                    </tbody></table>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td align="center" class="style17">
+                                <table style="width: 97%">
+                                    <tbody><tr>
+                                        <td class="style8">
+                                            <br>
+                                        </td>
+                                        <td>
+                                            <br>
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" style="width: 314px;">
+                                            ------------------------------<br>
+                                            <span id="lblsignature">(Signature of invigilator)</span>
+                                        </td>
+                                        <td align="center">
+                                            ------------------------------<br>
+                                            <span id="lblcandidatesign" style="display:inline-block;width:260px;">(Candidate's signature)</span>
+                                            <br>
+                                            <span id="lblcandidatesign1" style="display:inline-block;width:329px;">(The candidate should put his/her signature in the presence of invigilator on the day of exam)</span>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style17">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="style10">
+                                The Admit Cards of all the candidates who appear in the examination should be 
+                                collected and handed
+                                over by invigilator to the Chief Supervisor.
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    
+                    
+                    <span id="Span1">
+                        <div style="page-break-before: always;">
+                            <table border="1" width="760px">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2" align="center" style="font-size: large;">
+                                            <strong>Instructions</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            1.
+                                        </td>
+                                        <td class="style26">
+                                            <strong style="text-align: justify">Please bring hard copy of this Admit Card and submit the same to the invigilator,
+                                                otherwise you will not be allowed entry in the examination hall. The candidate should
+                                                also bring a valid photo ID proof such as PAN Card/ Passport/ Voter ID Card/ Driving
+                                                Licence/ Aadhaar Card/ permanent identity card issued by the present employer or
+                                                any other valid proof of identification with her/his photograph. </strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            2.</td>
+                                        <td class="style26">
+                    <span id="Span2">
+                                            <strong style="text-align: justify">If you belong to OBC Category, please enclose a Self-attested 
+                                            copy of OBC certificate. OBC certificate of the candidate must show that the 
+                                            caste the candidate belongs to is recognized as OBC under various Resolutions of 
+                                            the Ministry of Welfare, Government of India, and that the person does not 
+                                            belong to creamy layer section. The candidate claiming to be belonging to OBC 
+                                            but not submitting OBC certificate which satisfies these two conditions will be 
+                                            treated as General Category candidate and will not be provided any benefit 
+                                            available to OBC candidates. <span style="text-decoration:underline">The OBC certificate should have been issued on or 
+                                            after 02-12-2013</span>.</strong>
+                    </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            3.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>For detailed instructions regarding question paper, answer sheet, 
+                                            marking of answer on the answer sheet , etc. please read the notice being uploaded
+                                                on website: http://www.loksabha.nic.in under the heading Recruitment --&gt; Advertisements
+                                                &amp; Notices.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            4.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Arrive at the Venue of Examination 45 minutes before the scheduled time. No
+                                                Candidate will be allowed entry in the examination hall after the scheduled time
+                                                for start of examination.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            5.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Your candidature is provisional. The mere fact that the admit card has been
+                                                issued and you have been allowed to appear in the examination shall not imply that
+                                                Lok Sabha Secretariat has finally accepted your candidature.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            6.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>No request for change in the allotted venue of test/examination will be entertained.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            7.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Do not leave the Examination Hall unless the question paper and the answer sheet
+                                                have been collected from you by the Invigilator. Candidates shall not leave the
+                                                examination hall without prior permission of the Invigilator. No candidate will
+                                                be allowed to leave the Examination Hall before the examination is over.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            8.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Carrying of Electronic Devices including Bluetooth devices, Mobile Phones, Laptops, Tablets, Stopwatch,
+                                                Calculator, etc. into the examination venue is strictly prohibited.
+                                            <span style="text-decoration:underline">Their possession
+                                                by a Candidate in a switched on or switched off mode is considered by the Lok Sabha
+                                                Secretariat as a manipulative Practice</span> and will invite cancellation of her/his Candidature
+                                                and/or debarment from the examinations conducted by Lok Sabha Secretariat.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            9.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Use either Blue or Black Ball Pen only.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            10.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Candidates shall not bring articles such as books, notes, loose sheets, handbags
+                                                etc. into the Examination Hall.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            11.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>A signal will be given at the beginning of the paper and again at the closing
+                                                time. As soon as the signal for closing time is given, all candidates must stop
+                                                writing or revising their answers. The candidate, who is found violating this instruction,
+                                                will be penalised.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            12.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>While in Examination Hall, the candidates must observe complete silence. Consultation
+                                                with fellow candidates or any attempt to adopt unfair means will result in immediate
+                                                expulsion from the Examination Hall.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            13.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Smoking and Drinking is prohibited in the examination premises.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            14.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>Candidates shall not misbehave in any manner with the officials deployed by
+                                                the Lok Sabha Secretariat for conduct of examination or create any disorderly scene
+                                                at the examination premises.</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="5%" align="right">
+                                            15.
+                                        </td>
+                                        <td class="style26">
+                                            <strong>If you belong to scheduled caste/scheduled tribe and intend to claim Travelling
+                                                Allowance admissible to you as per Government Rules, bring attested copy of SC/ST
+                                                Certificate issued by a Competent Authority and travel documents and submit the
+                                                same immediately after the examination is over. Admissible amount will be sent to
+                                                the candidates by money order.</strong>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </span>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    </td><td></td></tr>
+    <tr><td style="width: 200px;"></td><td align="center"><a onclick="javascript:CallPrint(&#39;divPrint&#39;);" id="LinkButton2" class="sublink" href="javascript:__doPostBack(&#39;LinkButton2&#39;,&#39;&#39;)"> Print</a></td><td style="width: 200px;"></td></tr>
+    <tr><td style="width: 200px;"></td><td></td><td style="width: 200px;"></td></tr>
+    </tbody></table>
+    
+    </form>
+</body></html>

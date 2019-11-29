@@ -1,0 +1,725 @@
+body
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+    height: 100%;
+}
+INPUT.submit
+{
+    border-top: lightgrey 1px solid;
+    border-right: lightgrey 1px solid;
+    border-bottom: lightgrey 1px solid;
+    border-left: lightgrey 1px solid;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: hand;
+    background-color: #339933;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+INPUT.submit1
+{
+    border-right: #ffffff 1px;
+    border-top: #ffffff 1px;
+    font-weight: bolder;
+    font-size: 12px;
+    background-image: url(\images\butbg.gif);
+    border-left: #ffffff 1px;
+    cursor: hand;
+    color: black;
+    border-bottom: #ffffff 1px;
+    background-repeat: repeat-x;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    height: 19px;
+    background-color: transparent;
+    text-decoration: none;
+}
+INPUT.submitnew
+{
+    border-right: lightgrey 1px solid;
+    border-top: lightgrey 1px solid;
+    font-weight: bolder;
+    font-size: 12px;
+    border-left: lightgrey 1px solid;
+    cursor: hand;
+    color: white;
+    border-bottom: lightgrey 1px solid;
+    font-family: Verdana;
+    letter-spacing: 1px;
+    height: 19px;
+    background-color: navy;
+    text-align: center;
+    text-decoration: none;
+    width: 100;
+}
+.bigtext
+{
+    color: red;
+    font-family: verdana;
+    font-size: 100;
+    font-weight: bolder;
+    text-decoration: none;
+}
+SELECT
+{
+    border-right: darkgray 1px solid;
+    border-top: darkgray 1px solid;
+    font-size: 11px;
+    border-left: darkgray 1px solid;
+    color: #000000;
+    border-bottom: darkgray 1px solid;
+    font-family: Verdana;
+    background-color: #f0f0f0;
+    text-decoration: none;
+}
+TEXTAREA
+{
+    border-right: darkgray 1px solid;
+    border-top: darkgray 1px solid;
+    font-size: 12px;
+    border-left: darkgray 1px solid;
+    color: #000000;
+    border-bottom: darkgray 1px solid;
+    font-family: Verdana;
+    background-color: white;
+    text-decoration: none;
+}
+INPUT.text
+{
+    border-right: darkgray 1px solid;
+    border-top: darkgray 1px solid;
+    font-size: 12px;
+    border-left: darkgray 1px solid;
+    color: #000000;
+    border-bottom: darkgray 1px solid;
+    font-family: Verdana;
+    height: 20px;
+    background-color: #FAFAFA;
+    text-decoration: none;
+}
+INPUT:focus
+{
+    border-color: Red;
+}
+.link1
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 10px;
+    text-decoration: none;
+}
+.link2
+{
+    color: #ff6600;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.link01
+{
+    color: white;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+    text-decoration: none;
+}
+lnktxt1
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.lnktxt2
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnktxt3
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #044bac;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnktxt4
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: #044bac;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnktxt5
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnktxt6
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnktxt7
+{
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnkblack
+{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #D4CAB6;
+    color: #000000;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnkgreen
+{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: Green;
+    color: #ffffff;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnkyellow
+{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: Yellow;
+    color: #000000;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.lnkred
+{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: Red;
+    color: #ffffff;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.QNocls
+{
+    border: FloralWhite 1px solid;
+    padding: 1px;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 30px;
+    color: #000000;
+    font-family: Verdana;
+    height: 20px;
+    background-color: #D4CAB6;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.QNocls_s
+{
+    border: #a83851 1px solid;
+    padding: 1px;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 30px;
+    color: Black;
+    font-family: Verdana;
+    height: 20px;
+    background-color: FloralWhite;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.QNocls_a
+{
+    border: FloralWhite 1px solid;
+    padding: 1px;
+    font-weight: bolder;
+    font-size: 12px;
+    width: 30px;
+    color: #ffffff;
+    font-family: Verdana;
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tmr
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #FF00FF;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+.tdtext1
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    text-decoration: none;
+}
+.tdtext2
+{
+    color: white;
+    font-family: Verdana;
+    font-size: 9px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.bld
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.wbld
+{
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.bld1
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.htext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 21px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.mhtext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.tdtext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.mdtext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+}
+PRE
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+}
+.stext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 9px;
+}
+.btext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: bolder;
+}
+P
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+}
+LI
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 12px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.but
+{
+    background-image: url(\images\butbg.jpg);
+    background-repeat: repeat-x;
+    border-bottom: mediumslateblue 1px solid;
+    border-left: mediumslateblue 1px solid;
+    border-right: mediumslateblue 1px solid;
+    border-top: mediumslateblue 1px solid;
+    color: #ffffd8;
+    cursor: hand;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 21px;
+    padding-right: 0px;
+    text-decoration: none;
+}
+.dot
+{
+    font-weight: bolder;
+    font-size: 9px;
+    text-transform: none;
+    color: #000000;
+    line-height: 2pt;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.cltext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+}
+.mtext
+{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #000000;
+    font-family: Verdana;
+}
+.mtext1
+{
+    font-weight: bolder;
+    font-size: 14px;
+    color: #000000;
+    font-family: Verdana;
+}
+
+.Admtext
+{
+    font-weight: bolder;
+    font-size: 15px;
+    color: #000000;
+    font-family: Verdana;
+}
+.sbld
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 9px;
+    font-weight: bold;
+}
+.wtext
+{
+    color: white;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.bwtext
+{
+    color: white;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.bltext
+{
+    color: #000000;
+    font-family: Verdana;
+    font-size: 17px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.Psgdiv
+{
+    border: #313131 1px solid;
+    padding: 4px 4px 4px 4px;
+    font-size: 12px;
+    width: 100%;
+    font-family: Verdana;
+    height: auto;
+    text-align: justify;
+    text-decoration: none;
+    overflow: auto;
+}
+
+UL.ulimg
+{
+    background-color: transparent;
+    border-bottom: medium none;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: medium none;
+    font-family: Verdana;
+    font-size: 12px;
+    letter-spacing: 1px;
+    list-style: disc url(\images\bullet.gif);
+    text-align: justify;
+    text-decoration: none;
+}
+DIV.cldiv0
+{
+    border-right: #313131 1px solid;
+    padding-right: 1px;
+    border-top: #313131 1px solid;
+    padding-left: 1px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-bottom: 1px;
+    border-left: #313131 1px solid;
+    width: 30px;
+    color: ghostwhite;
+    padding-top: 1px;
+    border-bottom: #313131 1px solid;
+    font-style: italic;
+    font-family: Verdana;
+    height: 15px;
+    background-color: #5b5b5b;
+    text-align: center;
+    text-decoration: none;
+}
+DIV.cldiv1
+{
+    border-right: #484848 1px solid;
+    padding-right: 1px;
+    border-top: #484848 1px solid;
+    padding-left: 1px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-bottom: 1px;
+    border-left: #484848 1px solid;
+    width: 30px;
+    cursor: hand;
+    color: black;
+    padding-top: 1px;
+    border-bottom: #484848 1px solid;
+    font-style: italic;
+    font-family: Verdana;
+    height: 15px;
+    background-color: #eaeaea;
+    text-align: center;
+    text-decoration: none;
+}
+DIV.cldiv2
+{
+    border-right: #ff40ff 1px solid;
+    padding-right: 1px;
+    border-top: #ff40ff 1px solid;
+    padding-left: 1px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-bottom: 1px;
+    border-left: #ff40ff 1px solid;
+    width: 30px;
+    cursor: hand;
+    color: black;
+    padding-top: 1px;
+    border-bottom: #ff40ff 1px solid;
+    font-style: italic;
+    font-family: Verdana;
+    height: 15px;
+    background-color: #ffb1f0;
+    text-align: center;
+    text-decoration: none;
+}
+DIV.cldiv3
+{
+    border-right: green 1px solid;
+    padding-right: 1px;
+    border-top: green 1px solid;
+    padding-left: 1px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-bottom: 1px;
+    border-left: green 1px solid;
+    width: 30px;
+    cursor: hand;
+    color: black;
+    padding-top: 1px;
+    border-bottom: green 1px solid;
+    font-style: italic;
+    font-family: Verdana;
+    height: 15px;
+    background-color: lightgreen;
+    text-align: center;
+    text-decoration: none;
+}
+DIV.cldiv4
+{
+    border-right: saddlebrown 1px solid;
+    padding-right: 1px;
+    border-top: saddlebrown 1px solid;
+    padding-left: 1px;
+    font-weight: bolder;
+    font-size: 10px;
+    padding-bottom: 1px;
+    border-left: saddlebrown 1px solid;
+    width: 30px;
+    cursor: hand;
+    color: black;
+    padding-top: 1px;
+    border-bottom: saddlebrown 1px solid;
+    font-style: italic;
+    font-family: Verdana;
+    height: 15px;
+    background-color: burlywood;
+    text-align: center;
+    text-decoration: none;
+}
+SELECT.clst
+{
+    font-weight: bolder;
+    font-size: 11px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    font-family: Verdana;
+    background-color: ghostwhite;
+}
+A:hover
+{
+    text-decoration: underline;
+}
+/*New Class*/
+.Heddtext
+{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #424242;
+    font-family: Verdana;
+}
+.regtext
+{
+    color: #0B173B;
+    font-family: Verdana;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#passwordStrength
+{
+    height: 10px;
+    display: block;
+    float: left;
+    overflow: hidden; /*In IE6 Div height use this*/
+}
+
+.strength0
+{
+    width: 250px;
+    background: #cccccc;
+}
+
+.strength1
+{
+    width: 50px;
+    background: #ff0000;
+}
+
+.strength2
+{
+    width: 100px;
+    background: #ff5f5f;
+}
+
+.strength3
+{
+    width: 150px;
+    background: #56e500;
+}
+
+.strength4
+{
+    background: #4dcd00;
+    width: 200px;
+}
+
+.strength5
+{
+    background: #399800;
+    width: 250px;
+}
+.errormsgbox
+{
+    font-weight: bold;
+    border: 2px solid;
+    margin: 10px 0px;
+    padding: 5px 10px 15px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    width: 500px;
+    color: #D8000C;
+    background-color: #A9BCF5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+}
+div.close
+{
+    background: url("../images/close-button.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -27px;
+    top: -30px;
+    width: 50px;
+}
+table.sample
+{
+  border-collapse:collapse;
+}
+
+table.sample td
+{
+  border:1px solid black;
+}
